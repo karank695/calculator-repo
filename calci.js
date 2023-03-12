@@ -71,12 +71,12 @@ boxes.forEach(box=>{
 })
 document.getElementById("cross").onclick=hide;
 function hide(){
-    document.querySelector(".container").style.display="none";
+    document.querySelector(".app").style.display="none";
     document.querySelector("#btn").style.display="block";
 }
 document.getElementById("btn").onclick=show;
 function show(){
-    document.querySelector(".container").style.display="grid";
+    document.querySelector(".app").style.display="grid";
 }
 window.onkeydown=type;
 
